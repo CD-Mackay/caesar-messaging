@@ -4,7 +4,9 @@ import React from 'react';
 function Display({ string }) {
 
   return (
-    <p>{string}</p>
+    <div>
+    {string && <p><strong>Result: </strong>{string}</p>}
+    </div>
   )
 }
 

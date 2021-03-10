@@ -7,11 +7,12 @@ import encrypt from "../../helper/encrypt";
 function Form(
   { 
     clickHandle,
-    setString
+    setString,
+    string
   }
   ){
 
-  const [theString, setTheString] = useState("");
+  const [theString, setTheString] = useState(string);
   const [theKey, setTheKey] = useState("");
   const alphabet = 'abcdefghijklmnopqrstuvwxyz';
 
@@ -28,7 +29,7 @@ function Form(
     <form>
       <div className="form-separator">
       <label htmlFor="string">Secret Message</label>
-      <input type="text" name="string" onChange={(e) => setTheString(e.target.value)}/>
+      <input type="text" name="string"  onChange={(e) => setTheString(e.target.value)}/>
       </div>
       <div className="form-separator">
       <label htmlFor="encryption-key">Encryption Key</label>
