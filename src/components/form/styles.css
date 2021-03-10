@@ -1,0 +1,15 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  margin: auto;
+  align-items: flex-start;
+}
+
+.form-separator {
+  margin: 5px;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
