@@ -18,7 +18,7 @@ function App() {
       />
       <Display string={encryptedString}  />
       <h3>Decrypt a Secret Message</h3>
-      <Form 
+      <Form
         clickHandle={'handleDecrypt'}
         setString={setDecryptedString}
       />
