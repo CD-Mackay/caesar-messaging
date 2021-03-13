@@ -4,6 +4,8 @@ form {
   width: 25vw;
   margin: auto;
   align-items: flex-start;
+  background-color: #3DE0F2;
+  padding: 10px;
 }
 
 .form-separator {
