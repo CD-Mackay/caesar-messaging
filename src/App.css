@@ -3,7 +3,8 @@
   width: 30vw;
   margin: auto;
   background-color: black;
-  height: 40vh;
+  height: auto;
+  border: 2px solid #3DE0F2;
 }
 
 .App-logo {
