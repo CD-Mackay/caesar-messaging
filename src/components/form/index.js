@@ -26,7 +26,7 @@ function Form(
   }
 
   return (
-    <form>
+    <form class="encryption-form">
       <div className="form-separator">
       <label htmlFor="string">Secret Message</label>
       <input type="text" name="string"  onChange={(e) => setTheString(e.target.value)}/>
@@ -35,7 +35,7 @@ function Form(
       <label htmlFor="encryption-key">Encryption Key</label>
       <input type="number" name="encryption-key" onChange={(e) => setTheKey(e.target.value)}/>
       </div>
-      <button type="submit" onClick={encSwitch}>Make it happen baby!</button>
+      <button type="submit" onClick={encSwitch}>Encrypt/Decrypt</button>
   </form>    
   );
 }

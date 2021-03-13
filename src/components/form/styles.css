@@ -4,6 +4,9 @@ form {
   width: 25vw;
   margin: auto;
   align-items: flex-start;
+  background-color: #3DE0F2;
+  padding: 10px;
+  margin-bottom: 20px;
 }
 
 .form-separator {
@@ -12,4 +15,14 @@ form {
   width: 100%;
   flex-direction: row;
   justify-content: space-between;
+}
+
+button {
+  background-color: #1998A6;
+  color: white;
+}
+
+button:hover {
+  background-color: #0F5D66;
+  color: white;
 }
